@@ -45,7 +45,7 @@ npm manifest:
       "jsdom": "^8.1.0",
       "mocha": "^2.4.5",
       "webpack": "^1.12.9",
-      "webpack-dev-server": "^1.16.5"
+      "webpack-dev-server": "^1.14.0"
     },
     "dependencies": {
       "babel-preset-stage-1": "^6.1.18",
@@ -53,7 +53,6 @@ npm manifest:
       "react": "16.3.2",
       "react-dom": "16.3.2",
       "react-redux": "5.0.7",
-      "react-router": "^2.0.1",
       "redux": "4.0.0"
     }
   }

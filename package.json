@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
@@ -29,7 +29,7 @@
     "jsdom": "^8.1.0",
     "mocha": "^2.4.5",
     "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.16.5"
+    "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
@@ -37,8 +37,6 @@
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-redux": "5.0.7",
-    "react-router": "^2.0.1",
-    "react-scripts": "^1.1.4",
     "redux": "4.0.0"
   }
 }

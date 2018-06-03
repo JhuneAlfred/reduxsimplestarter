@@ -8,6 +8,7 @@ class BookList extends Component {
     return this.props.books.map(book => {
       return (
         <li
+          style={{ cursor: 'pointer' }}
           key={book.title}
           onClick={() => this.props.selectBook(book)}
           className="list-group-item"
